@@ -1,0 +1,265 @@
+body{
+	background-color: #3d3d3d;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+input[type=text]{
+	width: 600px;
+	height: 25px;
+	padding: 5px;
+	border-radius: 10px;
+}
+#amazonlogo{
+	width: 100px;
+	height: 40px;
+}
+#searchicon{
+	width: 37px;
+	height: 37px;
+	border-radius: 10px;
+	margin-bottom: -16px; 
+	background-color: orange;
+	cursor: pointer;
+}
+#menulines{
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	margin-right: 5px;
+	transition-duration: .5s;
+}
+#menulines:hover{
+	width: 40px;
+	height: 40px;
+	transition: .5s;
+	margin-right: 0px;
+}
+#menubar{
+	width: 100%;
+	background-color: #171717;
+	padding: 5px;
+}
+#menubar2{
+	width: 100%;
+	padding: 5px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#menubar2 th{
+	width: 8.33%;
+	color: white;
+	cursor: pointer;
+
+}
+.fixed{
+	position: fixed;
+	top:0px;
+	left:0px;
+	right: 0px;
+}
+.drop-down{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 10px;
+	min-width: 50px;
+}
+.primebanner{
+	border-radius: 15px;
+}
+.drop-down a{
+	color: #000;
+	text-align: center;
+}
+.prime:hover .drop-down{
+	display: block;
+}
+.catag{
+	display: inline-block;
+	padding: 10px;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+.shopp{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.shopp a{
+	color: black;
+	text-align: center;
+	transition-duration: .9s;
+	text-decoration: none;
+}
+.shopp a:hover{
+	color: black;
+	font-size: 24px;
+	transition: .5s;
+}
+.shopBy:hover .shopp{
+	display: block;
+	padding: 10px;
+}
+.carttext a{
+	text-decoration: none;
+	color: white;
+}
+#cartmenu{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.card{
+	max-width: 30%;
+	min-width: 29%;
+	max-height: 370px;
+	min-height: 369px;
+	background-color: white;
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 30px;
+	transition-duration: .5s;
+	border-radius: 15px;
+}
+.card2{
+	max-width: 30%;
+	min-width: 29%;
+	max-height: 370px;
+	min-height: 369px;
+	background-color: white;
+	display: inline-block;
+	max-height: 370px;
+	margin: 10px;
+	transition-duration: .5s;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+.card:hover{
+	transition: .5s;
+	box-shadow: 2px 2px 10px black;
+}
+.card2:hover{
+	transition: .5s;
+	box-shadow: 2px 2px 10px black;
+}
+.image img{
+	width: 90%;
+	overflow: auto;
+	transition-duration: .5s;
+	border-radius: 25px;
+}
+.image img:hover{
+	width: 95%;
+	overflow: auto;
+	transition: .5s;
+	box-shadow: 2px 2px 10px black;
+	border-radius: 25px;
+}
+.text{
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+}
+.des{
+	text-align: center;
+}
+#seemore{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: orange;
+	border-width: 1px;
+	border-color: black;
+	color: black;
+	transition-duration: .5s;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 3px;
+}
+#seemore:hover{
+	background-color: black;
+	color: white;
+	padding: 4px;
+	transition: .5s;
+	box-shadow: 2px 2px 10px black;
+	transition: .5s;
+}
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width:320px;
+    border:1px solid #bbb;
+    margin:50px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+
+
+
